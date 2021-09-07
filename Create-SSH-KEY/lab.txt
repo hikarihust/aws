@@ -1,0 +1,12 @@
+Step1: Tạo user
+    sudo su -
+    useradd yuki
+    passwd yuki
+Step2: Tạo Public key & Private key
+    su - yuki
+    ssh-keygen -t rsa
+    cd /home/yuki/.ssh
+    mv id_rsa.pub authorized_keys
+    chmod 600 authorized_keys
+Step3: Đăng nhập thử
+Step4: visudo
