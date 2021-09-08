@@ -1,4 +1,16 @@
 Tạo SSH KEY
     visudo: Cấu hình cho user được phép thực hiện các quyền của linux nhưng không hẳn quyền root 
 Cài đặt FTP Server
+AWS IAM tạo người dùng quản lý AWS
+    Tạo User 
+    Tạo  Group: Nhóm các user vào trong 1 group và cấp quyền cho những user trong group đó
+    Tạo  Roles: Chẳng hạn như môi trường lập trình Lamda thì cần có Roles
+    Tạo  Polices:
+        Khi tạo phân quyền cho user trong Group -> Permissions của user đó có quyền FullAccess
+            AmazonS3FullAccess
+            AmazonDynamoDBFullAccess
+        Trong trường hợp này user đó có quyền truy cập vào tất cả các S3
+        Do đó các thông tin của các bucket khác dễ bị nộ
+        Do đó cần phải customize Polices
+    Tạo  MFA: Truy cập 2 lớp
     
