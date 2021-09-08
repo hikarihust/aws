@@ -1,3 +1,4 @@
 Tạo SSH KEY
     visudo: Cấu hình cho user được phép thực hiện các quyền của linux nhưng không hẳn quyền root 
+Cài đặt FTP Server
     
