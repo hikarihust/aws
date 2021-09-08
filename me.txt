@@ -13,4 +13,7 @@ AWS IAM tạo người dùng quản lý AWS
         Do đó các thông tin của các bucket khác dễ bị nộ
         Do đó cần phải customize Polices
     Tạo  MFA: Truy cập 2 lớp
+S3 dịch vụ quản lý files
+    Canonical ID: Truy cập S3 từ 1 tài khoản khác
+        Cho phép tài khoản khác cũng có thể làm việc trên bucket của mình
     
