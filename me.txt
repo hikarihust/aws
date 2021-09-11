@@ -21,4 +21,6 @@ Cài đặt web server Nginx Trên AWS/EC2
 DynamonDB NoSQL trên AWS Cloud
 AWS CodeCommit
 Pipeline tự động deploy code PHP, Nodejs, Python trên AWS
+Setup a Proxy Server on AWS/EC2
+    Giải pháp để chạy các dịch vụ ở nước ngoài khi bị giới hạn IP ở một quốc gia nào đó ví dụ xem các trang ấy
     

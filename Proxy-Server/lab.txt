@@ -1,0 +1,14 @@
+1.Squid Install
+yum install squid -y
+
+2.Configure
+vi /etc/squid/squid.conf
+
+# Allow all access
+acl mynetwork src 0.0.0.0/0
+http_access allow mynetwork
+http_access deny all
+
+3. Start squid
+service squid start
+systemctl enable --now squid
