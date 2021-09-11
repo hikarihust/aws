@@ -20,3 +20,5 @@ RDB Cơ sở dữ liệu Cài EC2 và wordpress để test RDS
 Cài đặt web server Nginx Trên AWS/EC2
 DynamonDB NoSQL trên AWS Cloud
 AWS CodeCommit
+Pipeline tự động deploy code PHP, Nodejs, Python trên AWS
+    
